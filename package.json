@@ -4,8 +4,16 @@
   "description": "NPM and GIT activiy",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "live-server"
   },
   "author": "Kaye Ann Marcelino",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "moment": "^2.30.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
 }
